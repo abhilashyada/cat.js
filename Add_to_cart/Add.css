@@ -1,0 +1,60 @@
+/* General styling for the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f9fd;
+    color: #03254c;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Row container to structure content */
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cart input styles */
+#cartItemTextInput {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Add button styles */
+#addBtn {
+    background-color: #03254c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #055992;
+}
+
+/* Cart items list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    padding: 10px;
+    background-color: #f5f9fd;
+    border: 1px solid #03254c;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
